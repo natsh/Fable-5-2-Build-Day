@@ -96,7 +96,7 @@ Demos happen in one shared Microsoft Teams meeting. Everyone who registered join
 <!-- TODO(teams): replace with the Microsoft Teams meeting link -->
 > ⏳ **The Teams meeting link will appear here.**
 
-1. Join the meeting when build time ends. You can join from the browser (Chrome or Edge) without installing Teams.
+1. Join the meeting from your browser when build time ends. You don't need to install Teams.
 2. Wait for your name.
 3. Share your screen.
 4. Give your 2-minute demo.
@@ -104,8 +104,8 @@ Demos happen in one shared Microsoft Teams meeting. Everyone who registered join
 Before your slot:
 
 - **Have your build already open** in a tab or terminal before your name is called.
-- **On a Mac?** Open System Settings → Privacy & Security and check that Teams (or your browser, if you joined from it) is switched on under Screen Recording, Camera and Microphone. On newer macOS versions, Screen Recording is called "Screen & System Audio Recording".
-- **Restart Teams or the browser after granting access.** A permission switched on while the app is open usually doesn't take effect until you quit and reopen it.
+- **Allow screen recording, or you can't share your screen.** On a Mac, open System Settings → Privacy & Security → Screen Recording and switch it on for your browser. On newer macOS versions it is called "Screen & System Audio Recording". Check Camera and Microphone there too.
+- **Restart your browser after granting access.** A permission switched on while the browser is open usually doesn't take effect until you quit and reopen it.
 - **Join a few minutes early and test your screen share.** Better to find out before your name is called than during.
 
 ## Judging criteria
