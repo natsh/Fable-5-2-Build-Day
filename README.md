@@ -16,7 +16,7 @@ Wi-Fi details are on the screen in the room.
 | 4 | [Build](#rules) | 90 minutes | |
 | 5 | [Register for the competition](#register-for-the-competition) | During build time | [Registration form](https://docs.google.com/forms/d/1JojzzI04iAFCkX3B-XKKn79CkC6b_AA-lFEX5y_QjoA/viewform) |
 | 6 | [Join the judging session and demo](#join-the-judging-session) | When build time ends | ⏳ coming soon |
-| 7 | [Share your build with Anthropic](#before-you-leave) | Before you leave | Shared at the end |
+| 7 | [Share your build with Anthropic](#before-you-leave) | Before you leave | [Build submission form](https://form.typeform.com/to/SygLMeAD) |
 
 ---
 
@@ -123,7 +123,9 @@ Four criteria, weighted equally. The judges score every demo live.
 
 ## Before you leave
 
-At the end of the event we will share a link to submit what you built to Anthropic. That is how your build counts toward the global Build Day roll-up. Keep an eye on the room and on this page.
+Submit what you built to Anthropic, so the Community can feature what you made and your build counts toward the global Build Day roll-up. This is separate from registering for tonight's competition.
+
+**[Submit your build →](https://form.typeform.com/to/SygLMeAD)**
 
 ## Stuck?
 
