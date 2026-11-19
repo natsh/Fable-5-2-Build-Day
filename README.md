@@ -14,7 +14,7 @@ Wi-Fi details are on the screen in the room.
 | 2 | [Point Claude Code at the credits](#use-the-credits-in-claude-code) | Right after step 1 | |
 | 3 | [Hear the secret topic and pick a lane](#the-challenge) | 17:55 | 🤫 revealed in the room |
 | 4 | [Build](#rules) | 90 minutes | |
-| 5 | [Register for the competition](#register-for-the-competition) | During build time | [Registration form](https://docs.google.com/forms/d/1JojzzI04iAFCkX3B-XKKn79CkC6b_AA-lFEX5y_QjoA/viewform) |
+| 5 | [Register for the competition](#register-for-the-competition) | During build time | [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSdOlFV5gV-LIeMh_WrWW8F0rVcKN1MKb9vbu6dWTEr09kg9NA/viewform) |
 | 6 | [Join the judging session and demo](#join-the-judging-session) | When build time ends | ⏳ coming soon |
 | 7 | [Share your build with Anthropic](#before-you-leave) | Before you leave | [Build submission form](https://form.typeform.com/to/SygLMeAD) |
 
@@ -83,9 +83,9 @@ Build in whichever lane suits your idea. A lane describes the quality of what yo
 
 Registering is what puts you on the list for demos and judging. If you don't register, you don't get called up.
 
-**[Register your project →](https://docs.google.com/forms/d/1JojzzI04iAFCkX3B-XKKn79CkC6b_AA-lFEX5y_QjoA/viewform)**
+**[Register your project →](https://docs.google.com/forms/d/e/1FAIpQLSdOlFV5gV-LIeMh_WrWW8F0rVcKN1MKb9vbu6dWTEr09kg9NA/viewform)**
 
-- The form asks for three things: your project's name, a short description, and a link to it.
+- The form asks for your name or team name, a short description, and a link to your project (GitHub or a published site). The link is optional.
 - One registration per team. Solo builders register too.
 - Register during build time, before demos start.
 
