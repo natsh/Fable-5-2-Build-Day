@@ -117,7 +117,7 @@ Four criteria, weighted equally. The judges score every demo live.
 | 25% | **New Capability** | Leans on something the new model does that the previous one could not, or could not do well. This is the reason the event exists. |
 | 25% | **It Works** | Ran in front of the room and did what the team said it does. |
 | 25% | **Keep or Share** | You would use it next week, bring it to a problem you had given up on, or send it to a friend, depending on your lane. |
-| 25% | **Clarity of Demo** | The lane, the problem, and what the model did were obvious in two minutes. |
+| 25% | **Clarity of Demo** | How your build connects to the secret topic, which lane you chose, and what the model did were all obvious in two minutes. |
 
 🏆 **One winner.** First place gets a special gift, sent by Anthropic.
 
