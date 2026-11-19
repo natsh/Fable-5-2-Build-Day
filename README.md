@@ -76,8 +76,8 @@ Build in whichever lane suits your idea. A lane describes the quality of what yo
 - **90 minutes to build. 2 minutes to demo.**
 - **Solo or in a team of two to four.**
 - **Built tonight.** Everything you demo is made in the room, on tonight's topic.
-- **Show us the prompt you used and what you built.**
-- **Zero slides.** No presentations. Just the thing, running.
+- **Your demo: show us the prompt you used, then demo your build live.** It doesn't need to be perfect, but it must be live.
+- **Zero slides.** No presentations and no recordings. Just the thing, running.
 
 ## Register for the competition
 
@@ -99,7 +99,7 @@ Demos happen in one shared Microsoft Teams meeting. Everyone who registered join
 1. Join the meeting from your browser when build time ends. You don't need to install Teams.
 2. Wait for your name.
 3. Share your screen.
-4. Give your 2-minute demo.
+4. Show your prompt, then give your 2-minute live demo.
 
 Before your slot:
 
