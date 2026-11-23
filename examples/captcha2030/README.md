@@ -4,7 +4,7 @@ A browser game built entirely with Claude Code on **Fable 5.2** as the host's de
 
 **[▶ Play it online](https://natsh.github.io/Fable-5-2-Build-Day/examples/captcha2030/)**, or download [`index.html`](index.html) and open it in a browser. No server needed.
 
-It's 2099. AI robots have taken over Kiryat Ono, a Tel Aviv suburb, and it's permanently night. To win neighbors back you have to pass their "are you a robot?" humanity tests (fail one and it's a mini-game duel: rock paper scissors, tic-tac-toe, quick draw), hide from patrolling androids, then put your crew to work rebuilding the city, collecting scrap, food, power and know-how until you can fire up the City Hall transmitter.
+It's 2030. Robots have taken over Kiryat Ono, a Tel Aviv suburb, and it's permanently night. The few survivors hide in homemade robot costumes; to win them over you have to pass their "are you human?" tests (fail one and it's a mini-game duel: rock paper scissors, tic-tac-toe, quick draw), hide from patrolling androids, then put your crew to work rebuilding the city, collecting scrap, food, power and know-how until you can fire up the City Hall transmitter.
 
 | Controls | |
 |---|---|
