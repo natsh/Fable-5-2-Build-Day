@@ -47,15 +47,14 @@ Then four small tweaks in the same session:
 
 ## What it cost
 
-Claude Code's own recorded totals, at API prices (Fable 5.2, effort high):
+**About $30 in total**, rough estimates at API prices (Fable 5.2, effort high):
 
-| Session | What | Cost | Result |
+| Session | What | Cost (approx.) | Result |
 |---|---|---:|---|
-| 1 | One-shot build + 4 tweaks | $15.00 | 1,027 lines |
-| 2 | Post-apocalyptic restyle | $8.45 | 1,177 lines |
-| 3 | Strategy layer | not recorded | 1,436 lines |
+| 1 | The initial one-shot build | ~$10 | 1,027 lines |
+| 2–3 | Two adjustment sessions: post-apocalyptic restyle, then the strategy layer | ~$20 | 1,436 lines |
 
-The first one-shot prompt alone was about $9.90 of session 1. A one-line tweak cost $0.14–0.26, almost all of it re-reading the cached context, which is why each new direction starts with `/clear` and a fresh session.
+Small one-line tweaks cost cents; almost all of that is re-reading the cached context, which is why each new direction starts with `/clear` and a fresh session.
 
 ## Tips you can steal for tonight
 
