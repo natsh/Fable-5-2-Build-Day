@@ -10,12 +10,12 @@ Wi-Fi details are on the screen in the room.
 
 | # | What you do | When | Link |
 |---|---|---|---|
-| 1 | [Redeem your $100 API credits](#redeem-your-api-credits) | As soon as you sit down | ⏳ coming soon |
+| 1 | [Redeem your $100 API credits](#redeem-your-api-credits) | As soon as you sit down | [Credit redemption link](https://platform.claude.com/offers/2d4dc8a4-4f1d-4806-9b63-e443b2ad684c) |
 | 2 | [Point Claude Code at the credits](#use-the-credits-in-claude-code) | Right after step 1 | |
 | 3 | [Hear the secret topic and pick a lane](#the-challenge) | 17:55 | 🤫 revealed in the room |
 | 4 | [Build](#rules) | 90 minutes | |
 | 5 | [Register for the competition](#register-for-the-competition) | During build time | [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSdOlFV5gV-LIeMh_WrWW8F0rVcKN1MKb9vbu6dWTEr09kg9NA/viewform) |
-| 6 | [Join the judging session and demo](#join-the-judging-session) | When build time ends | ⏳ coming soon |
+| 6 | [Join the judging session and demo](#join-the-judging-session) | When build time ends | [Teams judging meeting](https://teams.microsoft.com/meet/245641779597856?p=JmTa6aewDO6IAnk9P5) |
 | 7 | [Share your build with Anthropic](#before-you-leave) | Before you leave | [Build submission form](https://form.typeform.com/to/SygLMeAD) |
 
 ---
@@ -24,23 +24,27 @@ Wi-Fi details are on the screen in the room.
 
 Every attendee gets **$100 in Claude API credits**. Do this before build time starts: it takes two minutes now and ten minutes of frustration later.
 
-<!-- TODO(credits): add the QR image (assets/credits-qr.png) and the redemption link here -->
-> ⏳ **The redemption link and its QR code will appear here on the day of the event.**
+<p align="center"><a href="https://platform.claude.com/offers/2d4dc8a4-4f1d-4806-9b63-e443b2ad684c"><img src="assets/credits-qr.png" alt="QR code for the API credit redemption link" width="240"></a></p>
+
+**Redemption link: [platform.claude.com/offers/2d4dc8a4-…](https://platform.claude.com/offers/2d4dc8a4-4f1d-4806-9b63-e443b2ad684c)** (or scan the QR)
 
 1. **Sign in at [console.anthropic.com](https://console.anthropic.com).** Create an account first if you don't have one. It is free and takes a minute.
-2. **Create or select an Organization, not a personal account.** This is the step almost everyone gets wrong. Credits attach to an Organization, never to a personal Claude.ai login. Copy the `Org ID` while you are there.
-3. **Open the redemption link on that Organization.**
-4. **Create an API key for tonight.** Console → API Keys → Create Key. Give it a name you will recognise, for example `build-day-tlv`.
-5. **Confirm the balance.** Console → Billing → Credits should show your $100.
+2. **Copy your Org ID from the console.** Credits attach to an Organization, never to a personal Claude.ai login. The form wants the console `Org ID`; **a Claude.ai UUID is rejected.**
+3. **Open the redemption link and submit that Org ID.** One claim per person, so check it before you hit submit.
+4. **Give it a couple of minutes.** Credits are issued almost instantly, but systems need a moment.
+5. **Create an API key for tonight.** Console → API Keys → Create Key. Give it a name you will recognise, for example `build-day-tlv`.
+6. **Confirm the balance.** Console → Billing → Credits should show your $100.
 
-> **Code won't apply?** It was almost always redeemed against a personal user instead of an Organization. Switch to your Organization (step 2) and open the link again. Don't create a second account.
+> **API only.** The credits work with the Claude API, not on Claude.ai. That's why Claude Code needs the API key (next section).
+>
+> **Claim once, from one account.** Automated fraud checks block anyone who submits from several profiles, and a wrong submission can't be fixed afterwards. Not sure which ID to paste? Raise a hand before you submit.
 
 ## Use the credits in Claude Code
 
-Claude Code will happily run on your personal Claude.ai login all night, but it won't touch the $100 unless you point it at the API key from step 4 above.
+Claude Code will happily run on your personal Claude.ai login all night, but it won't touch the $100 unless you point it at the API key from step 5 above.
 
 ```bash
-# paste the API key from step 4, once, in this terminal
+# paste the API key from step 5, once, in this terminal
 export ANTHROPIC_API_KEY="sk-ant-api03-..."
 
 # start Claude Code on Fable 5.2
@@ -93,8 +97,7 @@ Registering is what puts you on the list for demos and judging. If you don't reg
 
 Demos happen in one shared Microsoft Teams meeting. Everyone who registered joins it, and teams are called up one by one to share their screen and present: **2 minutes, live, no slides**.
 
-<!-- TODO(teams): replace with the Microsoft Teams meeting link -->
-> ⏳ **The Teams meeting link will appear here.**
+**Judging meeting: [Join on Microsoft Teams](https://teams.microsoft.com/meet/245641779597856?p=JmTa6aewDO6IAnk9P5)**
 
 1. Join the meeting from your browser when build time ends. You don't need to install Teams.
 2. Wait for your name.
