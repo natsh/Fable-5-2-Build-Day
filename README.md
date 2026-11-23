@@ -132,7 +132,7 @@ Submit what you built to Anthropic, so the Community can feature what you made a
 
 ## Need inspiration?
 
-See [**Pisgat Ono 2099**](examples/pisgat-ono-2099/), the host's demo: a robot-takeover strategy game built on Fable 5.2 from one loose prompt and a few follow-ups, in one HTML file with no libraries. The README has every prompt verbatim and what each session cost.
+See [**Captcha2030**](examples/captcha2030/), the host's demo: a robot-takeover strategy game built on Fable 5.2 from one loose prompt and a few follow-ups, in one HTML file with no libraries. The README has every prompt verbatim and what each session cost.
 
 ## Stuck?
 

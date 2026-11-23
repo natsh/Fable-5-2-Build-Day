@@ -1,4 +1,4 @@
-# Example: Pisgat Ono 2099 — Are You a Robot?
+# Example: Captcha2030 — Are You a Robot?
 
 A browser game built entirely with Claude Code on **Fable 5.2** as the host's demo for this Build Day. One HTML file, no libraries, no image files: everything you see is drawn in code.
 
