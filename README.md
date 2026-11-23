@@ -130,6 +130,10 @@ Submit what you built to Anthropic, so the Community can feature what you made a
 
 **[Submit your build →](https://form.typeform.com/to/SygLMeAD)**
 
+## Need inspiration?
+
+See [**Pisgat Ono 2099**](examples/pisgat-ono-2099/), the host's demo: a robot-takeover strategy game built on Fable 5.2 from one loose prompt and a few follow-ups, in one HTML file with no libraries. The README has every prompt verbatim and what each session cost.
+
 ## Stuck?
 
 Raise a hand. Helpers are walking the room during build time, and credit or login problems are much quicker to fix in the first ten minutes than in the last ten.
