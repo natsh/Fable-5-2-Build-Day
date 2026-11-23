@@ -132,7 +132,7 @@ Submit what you built to Anthropic, so the Community can feature what you made a
 
 ## Need inspiration?
 
-See [**Captcha2030**](examples/captcha2030/), the host's demo: a robot-takeover strategy game built on Fable 5.2 from one loose prompt and a few follow-ups, in one HTML file with no libraries. The README has every prompt verbatim and what each session cost.
+See [**Captcha2030**](examples/captcha2030/), the host's demo: a robot-takeover strategy game built on Fable 5.2 from one loose prompt and a few follow-ups, in one HTML file with no libraries. [▶ Play it online](https://natsh.github.io/Fable-5-2-Build-Day/examples/captcha2030/). Its README has every prompt verbatim and what each session cost.
 
 ## Stuck?
 
