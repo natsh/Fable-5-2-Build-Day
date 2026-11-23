@@ -12,7 +12,7 @@ It's 2030. Robots have taken over Kiryat Ono, a Tel Aviv suburb, and it's perman
 | Talk, scavenge, use | E or Space |
 | Answer a humanity test | 1 / 2 / 3 |
 | Command panel: orders, tech, city | Tab |
-| Mute | M |
+| Mute | M, or the 🔊 button on the minimap |
 
 ## How it was built: the prompts, verbatim
 

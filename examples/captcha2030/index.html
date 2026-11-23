@@ -83,6 +83,8 @@
   .chip.low{border-color:#ff6b5e;box-shadow:0 0 14px #ff6b5e66;color:#ffd9d4}
   #cmdBtn{position:fixed;right:12px;top:166px;width:196px;box-sizing:border-box;padding:7px 10px;border-radius:8px;border:1.5px solid var(--line);background:#0e1420e6;font-weight:800;font-size:14px;box-shadow:0 0 14px #3fd8ff33;text-align:center}
   #cmdBtn:hover{background:#18233a}
+  #muteBtn{position:fixed;right:18px;top:118px;width:32px;height:32px;padding:0;border-radius:50%;border:1.5px solid var(--line);background:#0e1420e6;font-size:16px;line-height:1;box-shadow:0 0 12px #3fd8ff33}
+  #muteBtn:hover{background:#18233a}
   #cmdBtn.ping{border-color:var(--amber);box-shadow:0 0 16px #ffb45477;animation:ping .7s infinite alternate}
   @keyframes ping{to{transform:translateY(-3px)}}
   #cmd{position:fixed;right:12px;top:166px;bottom:12px;width:min(388px,calc(100vw - 24px));box-sizing:border-box;display:flex;flex-direction:column;background:#0b101af7;border:2px solid var(--line);border-radius:14px;box-shadow:0 0 0 3px #3fd8ff1a,0 0 30px #3fd8ff26,0 20px 50px #000a;overflow:hidden}
@@ -129,7 +131,7 @@
   .kv{display:flex;justify-content:space-between;gap:10px;font-size:13px;font-weight:700;padding:4px 0;border-bottom:1px solid #ffffff14}
   .kv span:last-child{color:#eaf8ff;text-align:right}
   @media (max-width:640px){#minimap{width:128px;height:96px}.card h1{font-size:36px}#dText{font-size:16px}#face{width:56px;height:56px}
-    #hud{max-width:calc(100vw - 164px)}.chip{font-size:13px;padding:4px 8px}#cmdBtn{top:118px;width:132px;font-size:12px}#cmd{top:118px}}
+    #hud{max-width:calc(100vw - 164px)}.chip{font-size:13px;padding:4px 8px}#cmdBtn{top:118px;width:132px;font-size:12px}#cmd{top:118px}#muteBtn{top:74px}}
 </style>
 </head>
 <body>
@@ -153,6 +155,7 @@
   <div id="obj"></div>
 </div>
 <canvas id="minimap" width="128" height="96" class="hidden"></canvas>
+<button id="muteBtn" class="hidden" title="Mute (M)" aria-label="Mute">🔊</button>
 <div id="toast"></div>
 <button id="actBtn" class="hidden">E</button>
 <button id="cmdBtn" class="hidden">📋 Command <kbd>Tab</kbd></button>
@@ -478,7 +481,7 @@ function musicTick(){if(!AC||AC.state!=='running')return;const now=AC.currentTim
     if(mStep%8===4)tone(sc[nm?2:3]/2,beat*3.5,'sine',.045,dl);
     if(Math.random()<(nm?.45:.68)){mIdx=clamp(mIdx+((Math.random()*5|0)-2),0,9);tone(sc[mIdx%5]*(mIdx>=5?2:1),beat*1.9,'triangle',.04,dl)}
     mStep++;musicT+=beat}}
-function toggleMute(){muted=!muted;if(master)master.gain.value=muted?0:.55;toast(muted?'🔇 Muted':'🔊 Sound on',1.2)}
+function toggleMute(){muted=!muted;if(master)master.gain.value=muted?0:.55;const mb=$('#muteBtn');mb.textContent=muted?'🔇':'🔊';mb.setAttribute('aria-label',muted?'Unmute':'Mute');toast(muted?'🔇 Muted':'🔊 Sound on',1.2)}
 
 // ---------- UI helpers
 const toastEl=$('#toast');let toastT=0;
@@ -788,6 +791,7 @@ document.addEventListener('mousedown',e=>{if(e.target.closest&&e.target.closest(
 dlg.addEventListener('click',e=>{if(e.target.closest('button'))return;if(dAdvance)dAdvance()});
 $('#startBtn').onclick=startGame;
 $('#cmdBtn').onclick=()=>{if(state==='play')openCmd()};
+$('#muteBtn').onclick=e=>{toggleMute();e.currentTarget.blur()};   // blur: Space/Enter are game keys
 $('#actBtn').onclick=()=>{if(dlgOpen()){if(miniAction)miniAction();else if(dAdvance)dAdvance()}else interact()};
 const cv=$('#game'),ctx=cv.getContext('2d');
 cv.addEventListener('touchstart',e=>{const t=e.changedTouches[0];joy.id=t.identifier;joy.ox=t.clientX;joy.oy=t.clientY;e.preventDefault()},{passive:false});
@@ -799,7 +803,7 @@ function interact(){if(state!=='play'||!target)return;const k=target.kind,r=targ
   if(k==='human')talkHuman(r);else if(k==='savta')talkSavta();else if(k==='use')useSite(r);else if(k==='loot')scavenge(r);
   else if(k==='crew'){sfx.blip();openCmd('orders',r,r.job)}else if(k==='site'){sfx.blip();openCmd('orders',cmdSel,r)}}
 function startGame(){if(state!=='title')return;initAudio();if(AC&&AC.state==='suspended')AC.resume();
-  $('#title').classList.add('hidden');$('#hud').classList.remove('hidden');$('#minimap').classList.remove('hidden');$('#cmdBtn').classList.remove('hidden');
+  $('#title').classList.add('hidden');$('#hud').classList.remove('hidden');$('#minimap').classList.remove('hidden');$('#muteBtn').classList.remove('hidden');$('#cmdBtn').classList.remove('hidden');
   if('ontouchstart' in window)$('#actBtn').classList.remove('hidden');
   state='play';stats.t=0;calmRobots();snapCam();
   toast(`${humans[0].n} — the one in the colander — is just south of Savta’s house, by the ruined café. Walk over and press E — you’ll have to prove you’re human.`,7)}
